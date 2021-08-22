@@ -188079,3 +188079,39 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+
+
+
+
+body {
+  background-color: white;
+}
+
+.hero {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero > .left > .descrip {
+  font-size: 1.3em;
+}
+
+.hero > .left h1 {
+  margin: 0.25em 0;
+}
+
+.hero > .left p {
+  margin: 0.25em 0;
+}
+
+.hero > .left button {
+  margin: 0.25em 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
